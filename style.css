@@ -1,0 +1,57 @@
+.maestro {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+}
+
+.correo1 {
+  background-color: red;
+  width: 300px;
+  text-align: center;
+  margin: 0px;
+}
+
+.id2 {
+  background-color: blue;
+  width: 300px;
+  text-align: center;
+  margin: 0px;
+}
+
+.hola3 {
+  background-color: green;
+  width: 300px;
+  text-align: center;
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.bodyBack {
+  background-color: blue;
+}
+
+.emailField {
+  color: white;
+}
+
+.passwordField {
+  color: white;
+}
+
+.regis {
+  color: white;
+}
+
+.mensaje1 {
+
+  color: white;
+}
+
+.mensaje2 {
+  color: grey;
+}

@@ -37,11 +37,11 @@ if ($pass1 == $pass2) {
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+
     <meta charset="utf-8">
     <title>IdiomaKids</title>
   </head>
-  <body class="bodyBack">
+  <body class="bodyBack" >
 
     <center>
       <h1 class="regis">REGISTRO</h1>
@@ -54,20 +54,20 @@ if ($pass1 == $pass2) {
 
     <section class="emailField">
         <h4 style="font-size:25px;display:table-row;">Email</h4>
-        <input type="email" name="correo" id="correo" required>
+        <input style="transition:0s" type="email" name="correo" id="correo" required>
 
     </section>
     <section class="passwordField">
       <h4 style="font-size:25px;display:table-row;">Contraseña</h4>
-      <input type="password" name="password" minlength = 6 id="password" required>
+      <input style="transition:0s" type="password" name="password" minlength = 6 id="password" onmouseover="agrandar()"required>
     </section>
     <section class="passwordField">
       <h4 style="font-size:25px;display:table-row;">Nombre</h4>
-      <input type="text" name="nombre" minlength = 6 id="nombre" required>
+      <input style="transition:0s"type="text" name="nombre" minlength = 6 id="nombre" required>
     </section>
     <section class="passwordField">
         <h4 style="font-size:25px;margin-bottom: 0%;">Repetir contraseña</h4>
-        <input type="password" name="passwordR" minlength = 6 id="passwordR" onfocusout="passCheck()" onmouseout="passCheck()" required>
+        <input style="transition:0s" type="password" name="passwordR" minlength = 6 id="passwordR" onfocusout="passCheck()" onmouseout="passCheck()" required>
     </section>
 <script type="text/javascript">
 //Hacemos una comprabacion en vivo de las contraseñas antes de mandarlas a la base de datos, si alguien consigue burlar este paso, entra en juego el paso anterior de comprobacion de contraseñas
@@ -112,5 +112,7 @@ if ($pass1 == $pass2) {
 <br>
 <br>
     </center>
+    <script type="text/javascript" src="script.js"></script>
   </body>
+
 </html>

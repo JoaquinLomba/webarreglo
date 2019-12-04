@@ -26,8 +26,8 @@ echo $hola;
 
     <div class="correo1">
     <p>este es tu correo: </p>
-      <?php echo $correo ;
-      ?>
+    <?php echo $correo ;
+    ?>
     </div>
     <div class="id2">
     <p>este es tu id: </p>

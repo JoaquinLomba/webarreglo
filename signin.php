@@ -32,14 +32,32 @@ if (!empty($_POST['correo']) && !empty($_POST['password'])) {
  <!DOCTYPE html>
  <html lang="en" dir="ltr">
    <head>
+     <link rel="stylesheet" href="style.css">
      <meta charset="utf-8">
      <title></title>
    </head>
-   <body>
+   <body class="bodyBack" onload="agrandar()">
      <form class="" action="signin.php" method="post">
-       <input type="text" name="correo" value="">
-       <input type="password" name="password" value="">
-       <input type="submit" name="" value="Enviar">
+       <container class="containerFields" style="text-align:center;">
+
+       <section class="emailField">
+         <h4 style="font-size:25px;margin-bottom:1%;">correo</h4>
+
+         <input class="correo4" style="transition:0s"class="" type="text" name="correo" id="correo" required>
+       </section>
+       <section class="passwordField">
+         <h4 style="font-size:25px;margin-bottom:1%;">contraseña</h4>
+         <input class="contra3" style="transition:0s"class="contra1" type="password" name="password" id="password" required>
+       </section>
+
+       <div style="margin-top: 2%;">
+
+
+       <input class="boton2" type="submit" name="" value="Enviar" style="">
+      </div>
+     </container>
      </form>
+    <script type="text/javascript" src="script.js"></script>
+
    </body>
  </html>

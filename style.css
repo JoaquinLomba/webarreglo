@@ -55,3 +55,64 @@ p {
 .mensaje2 {
   color: grey;
 }
+
+.correo2 {
+color: white;
+
+
+}
+/* .contra1 {
+
+  position: absolute;
+  top: 56%;
+  left: 43%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+
+} */
+
+/* .boton2 {
+
+  position: absolute;
+  top: 61%;
+  left: 46%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+
+} */
+
+/* .para1 {
+
+  position: absolute;
+  top:  47%;
+  left: 43%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+color: white;
+font-size: 35px;
+} */
+
+/* .para2 {
+
+  position: absolute;
+  top:  53%;
+  left: 43%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+color: white;
+font-size: 35px;
+
+} */
+
+.correo4 {
+
+border-radius: 10px;
+
+}
+
+
+.contra3 {
+
+border-radius: 10px;
+
+}

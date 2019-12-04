@@ -15,4 +15,6 @@ document.getElementById('nombre').style.WebkitTransition="all 3s ";
 
 document.getElementById('passwordR').style.WebkitTransition="all 3s ";
 
+
+
 }

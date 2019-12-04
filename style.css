@@ -48,7 +48,6 @@ p {
 }
 
 .mensaje1 {
-
   color: white;
 }
 
@@ -57,10 +56,9 @@ p {
 }
 
 .correo2 {
-color: white;
-
-
+  color: white;
 }
+
 /* .contra1 {
 
   position: absolute;
@@ -70,7 +68,6 @@ color: white;
   transform: translateY(-50%);
 
 } */
-
 /* .boton2 {
 
   position: absolute;
@@ -80,7 +77,6 @@ color: white;
   transform: translateY(-50%);
 
 } */
-
 /* .para1 {
 
   position: absolute;
@@ -91,7 +87,6 @@ color: white;
 color: white;
 font-size: 35px;
 } */
-
 /* .para2 {
 
   position: absolute;
@@ -103,16 +98,10 @@ color: white;
 font-size: 35px;
 
 } */
-
 .correo4 {
-
-border-radius: 10px;
-
+  border-radius: 10px;
 }
 
-
 .contra3 {
-
-border-radius: 10px;
-
+  border-radius: 10px;
 }
